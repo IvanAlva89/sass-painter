@@ -1,0 +1,49 @@
+.flex {
+    display: flex;
+}
+
+.upp {
+    text-transform: uppercase;
+}
+
+.list {
+    list-style: none;
+}
+
+.txt {
+    text-align: center;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    font-size: 14px;
+    color: $color-text;
+    background: #666666;
+    padding: 10px 15px;
+    border: none;
+    line-height: 1.5;
+    cursor: pointer;
+    &:hover {
+       opacity: .8; 
+    }
+}
+
+.btn-secondary {
+    font-size: 14px;
+    color: $white;
+    background: $action-color;
+    padding: 10px 45px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        background: #28acff;
+    }
+}
+

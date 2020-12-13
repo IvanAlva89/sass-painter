@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #f1f1f1;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: normal;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.upp {
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: none;
+}
+
+.txt {
+  text-align: center;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  font-size: 14px;
+  color: #f1f1f1;
+  background: #666666;
+  padding: 10px 15px;
+  border: none;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+.btn-secondary {
+  font-size: 14px;
+  color: #ffffff;
+  background: #009cff;
+  padding: 10px 45px;
+  border: none;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background: #28acff;
+}
+
+header .navbar {
+  background: #101010;
+}
+header .navbar .navbar-top {
+  font-size: 12px;
+  padding: 10px 0;
+}
+header .navbar .navbar-top ul {
+  justify-content: flex-end;
+}
+header .navbar .navbar-top ul li {
+  margin-right: 20px;
+}
+header .navbar .navbar-top ul li a {
+  color: #989898;
+}
+header .navbar .navbar-top ul li a:hover {
+  color: #f1f1f1;
+  text-decoration: underline;
+}
+header .navbar .navbar-top ul li a i {
+  color: #009cff;
+  margin-right: 5px;
+}
+header .navbar .navbar-menu {
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+header .navbar .navbar-menu img {
+  width: 90px;
+  height: 24px;
+  margin: 0 15px;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+header .navbar .navbar-menu ul {
+  margin-top: 20px;
+}
+header .navbar .navbar-menu ul a {
+  color: #f1f1f1;
+  padding: 20px 21px;
+}
+header .navbar .navbar-menu ul a:hover {
+  background: #f1f1f1;
+  color: #000000;
+}
+header .hero {
+  background-image: url("../../img/hero-painteressentials-7.jpg");
+  background-position: top;
+  background-size: cover;
+  min-height: 460px;
+  padding: 20px 0 0 0;
+}
+header .hero .container {
+  position: relative;
+}
+header .hero .container .hero-info {
+  margin: 20px 50px 0 265px;
+}
+header .hero .container .hero-info li {
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+header .hero .container .hero-info .btn-primary {
+  margin-top: 30px;
+}
+header .hero .container .hero-info .btn-primary div:first-child {
+  padding-right: 10px;
+  border-right: 1px solid;
+}
+header .hero .container .hero-info .btn-primary div:last-child {
+  font-size: 30px;
+  padding-left: 15px;
+}
+header .hero .container .hero-buy {
+  background: #010303;
+  min-height: 440px;
+  padding: 20px 20px;
+}
+header .hero .container .hero-buy .hero-top {
+  justify-content: space-between;
+}
+header .hero .container .hero-buy .hero-top .hero-price {
+  padding-top: 40px;
+  color: #ffffff;
+  font-size: 25px;
+}
+header .hero .container .hero-buy .hero-top .hero-price small {
+  display: block;
+  font-size: 13px;
+  color: #999;
+  margin: 15px 0;
+}
+header .hero .container .hero-buy .hero-top img {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+}
+header .hero .container .hero-buy .offer {
+  background: #f6f6f6;
+  margin-top: 40px;
+  color: #2c2c2c;
+  padding: 12px;
+}
+header .hero .container .hero-buy .offer h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+header .hero .container .hero-buy .offer p {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+header .hero .container .hero-buy .offer a {
+  color: #009cff;
+  font-size: 13px;
+}
+header .hero .container .hero-buy .offer a:hover {
+  text-decoration: underline;
+}
+header .hero .container .maker {
+  position: absolute;
+  bottom: 20px;
+  left: 70px;
+  font-size: 11px;
+}
+header .navbar-bottom {
+  background: #e6e6e6;
+}
+header .navbar-bottom li {
+  padding: 20px 20px;
+}
+header .navbar-bottom li:hover {
+  border-bottom: 3px solid #000000;
+  background: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.4s ease-out 0s;
+}
+header .navbar-bottom li a {
+  color: #000000;
+  font-size: 17px;
+}
+
+.content {
+  font-size: 16px;
+}
+.content .intro {
+  background-image: url("../../img/intro.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.content .intro p {
+  padding: 0 110px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+.content .intro a {
+  color: #ffffff;
+}
+.content .intro a img {
+  width: 30px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.content .intro .images {
+  margin: 55px 80px 0;
+  position: relative;
+  bottom: -3px;
+}
+.content .intro .images:hover {
+  color: grey;
+  cursor: pointer;
+}
+.content .intro .images img:first-child {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.content .intro .images img:nth-child(2) {
+  width: 98.7%;
+  border-radius: 20px;
+}
+.content .intro .images i {
+  font-size: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content .painter {
+  color: #333;
+  padding-bottom: 70px;
+}
+.content .painter p {
+  margin-bottom: 30px;
+  padding: 0 120px;
+  line-height: 1.5;
+}
+.content .painter .slider {
+  margin: 55px 80px 0;
+  position: relative;
+}
+.content .painter .slider img:first-child {
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+  border-right: 5px solid #000000;
+  overflow: hidden;
+}
+.content .painter .slider img:nth-child(2) {
+  position: absolute;
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.content .painter .slider i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 27px;
+  color: #ffffff;
+  background: #e74500;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.content .painter .slider i.prev {
+  left: -50px;
+  line-height: 1.1;
+  padding-right: 2px;
+}
+.content .painter .slider i.next {
+  right: -50px;
+  line-height: 1.1;
+  padding-left: 4px;
+}
+.content .painter .slider p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  color: #ffffff;
+  background: #333;
+  font-size: 25px;
+  padding: 0 15px 5px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.content .parallax {
+  background-image: url("../../img/image-bg-02.jpg");
+  height: 650px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,38 @@
+// GENERAL STYLE
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $main-font;
+    color: $color-text;
+    font-size: $base-font;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 19px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}

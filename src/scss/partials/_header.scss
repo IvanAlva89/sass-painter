@@ -1,0 +1,148 @@
+header {
+    //Navbar
+    .navbar {
+        background: $bg-color-head;
+        .navbar-top {
+            font-size: 12px;
+            padding: 10px 0;
+            ul {
+                justify-content: flex-end;
+                li {
+                    margin-right: $action-space;
+                    a {
+                        color: $color-navbar-top;
+                        &:hover {
+                            color: $color-text;
+                            text-decoration: underline;
+                        }          
+                        i {
+                            color: $action-color;
+                            margin-right: 5px;
+                        }
+                    }
+                }          
+            }
+        }
+        .navbar-menu {
+            font-size: 13px;
+            padding-bottom: $action-space;
+            img {
+                width: 90px;
+                height: 24px;
+                margin: 0 15px;
+                position: relative;
+                top: 10px;
+                cursor: pointer;
+            }
+            ul {
+                margin-top: 20px;
+                 a {
+                      color: $color-text;
+                     padding: 20px 21px;
+                     &:hover {
+                        background: $color-text;
+                           color: $black;
+                     }
+                  }
+            }          
+        }
+    }
+    
+    //Hero
+    .hero {
+        background-image: url('../../img/hero-painteressentials-7.jpg');
+        background-position: top;
+        background-size: cover;
+        min-height: 460px;
+        padding: 20px 0 0 0;
+        .container {
+            position: relative;
+            .hero-info {
+                margin: 20px 50px 0 265px;
+                li {
+                    padding-left: 5px;
+                    margin-bottom: 20px;
+                }
+                .btn-primary {
+                    margin-top: 30px;
+                    div:first-child {
+                        padding-right: 10px;
+                        border-right: 1px solid;
+                    }
+                    div:last-child {
+                        font-size: 30px;
+                        padding-left: 15px;
+                    }
+                }
+            }
+            .hero-buy {
+                background: #010303;
+                min-height: 440px;
+                padding: 20px 20px;
+                .hero-top {
+                    justify-content: space-between;
+                    .hero-price {
+                        padding-top: 40px;
+                        color: $white;
+                        font-size: 25px;
+                        small {
+                            display: block;
+                            font-size: 13px;
+                            color: #999;
+                            margin: 15px 0;
+                        }
+                    }
+                    img {
+                        width: 90px;
+                        height: 90px;
+                        cursor: pointer;
+                    }
+                }
+                .offer {
+                    background: #f6f6f6;
+                    margin-top: 40px;
+                    color: #2c2c2c;
+                    padding: 12px;
+                    h3 {
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin-bottom: 8px;
+                    }
+                    p {
+                        font-size: 13px;
+                        margin-bottom: 8px;
+                    }
+                    a {
+                        color: $action-color;
+                        font-size: 13px;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            } 
+            .maker {
+                position: absolute;
+                bottom: 20px;
+                left: 70px;
+                font-size: 11px;
+            }          
+        }
+    }
+    .navbar-bottom {
+        background: $color-navbar-bottom;
+        li {
+            padding: 20px 20px;
+            &:hover {
+                border-bottom: 3px solid $black;
+                background: $white;
+                font-weight: 700;
+                cursor: pointer;
+                transition: all .4s ease-out .0s;
+            }   a {
+                color: $black;
+                font-size: 17px;
+            }        
+        }
+    } 
+}
